@@ -15,13 +15,13 @@ export const Hero = ()=>{
         <div className={styles.imageContainer}>
       {/* Front Image */}
       <img
-        src={`/assets/hero/venkat-photo.png`} // Replace with your image
+        src={getImageUrl("/hero/venkat-photo.png")} // Replace with your image
         className={`${styles.heroImg} ${styles.frontImg}`}
         alt="Front Image"
       />
       {/* Back Image */}
       <img
-        src={`/assets/hero/heroImage.png`} // Replace with your image
+        src={getImageUrl("/hero/heroImage.png")} // Replace with your image
         className={`${styles.heroImg} ${styles.backImg}`}
         alt="Back Image"
       />
